@@ -64,13 +64,13 @@ navbar.innerHTML = `
                 </div>
 
                 <a href="/faq.html" class="hover:text-yellow-500 transition">FAQ</a>
-                <a href="/contact.html" class="hover:text-yellow-500 transition">Contact</a>
+                <a href="tel:+1234567890" class="hover:text-yellow-500 transition">Contact</a>
             </nav>
 
             <div class="hidden lg:flex justify-end w-1/4">
-                <a href="/contact.html"
+                <a href="tel:+1234567890"
                     class="bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-semibold px-6 py-3 rounded-lg transition">
-                    Free Estimate
+                    Call Now
                 </a>
             </div>
 
@@ -114,11 +114,11 @@ navbar.innerHTML = `
         </div>
 
         <a href="/faq.html" class="hover:text-yellow-400 block py-3 transition">FAQ</a>
-        <a href="/contact.html" class="hover:text-yellow-400 block py-3 transition">Contact</a>
+        <a href="tel:+1234567890" class="hover:text-yellow-400 block py-3 transition">Contact</a>
 
-        <a href="/contact.html"
+        <a href="tel:+1234567890"
             class="mt-6 inline-flex items-center justify-center bg-yellow-500 text-gray-900 font-bold py-4 rounded-xl">
-            Free Estimate
+            Call Now
         </a>
     </nav>
 </div>
