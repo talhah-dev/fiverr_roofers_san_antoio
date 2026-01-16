@@ -94,11 +94,11 @@ navbar.innerHTML = `
         </button>
     </div>
 
-    <nav class="flex flex-col px-6 pt-10 gap-6 text-lg font-semibold">
-        <a href="/index.html" class="hover:text-yellow-400 transition">Home</a>
-        <a href="/about.html" class="hover:text-yellow-400 transition">About</a>
+    <nav class="flex flex-col px-6 pt-10 text-lg font-semibold">
+        <a href="/index.html" class="hover:text-yellow-400 block py-3 transition">Home</a>
+        <a href="/about.html" class="hover:text-yellow-400 block py-3 transition">About</a>
 
-        <button id="mobileServicesBtn" class="flex items-center justify-between hover:text-yellow-400 transition">
+        <button id="mobileServicesBtn" class="flex items-center justify-between block py-3 hover:text-yellow-400 transition">
             <span>Services</span>
             <i id="mobileServicesIcon" class="fa-solid fa-chevron-down text-sm transition-transform duration-300"></i>
         </button>
@@ -113,8 +113,8 @@ navbar.innerHTML = `
             </div>
         </div>
 
-        <a href="/faq.html" class="hover:text-yellow-400 transition">FAQ</a>
-        <a href="/contact.html" class="hover:text-yellow-400 transition">Contact</a>
+        <a href="/faq.html" class="hover:text-yellow-400 block py-3 transition">FAQ</a>
+        <a href="/contact.html" class="hover:text-yellow-400 block py-3 transition">Contact</a>
 
         <a href="/contact.html"
             class="mt-6 inline-flex items-center justify-center bg-yellow-500 text-gray-900 font-bold py-4 rounded-xl">
