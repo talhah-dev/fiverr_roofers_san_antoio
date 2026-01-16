@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// AOS.init({
-//   once: true,
-//   duration: 1000
-// });
+AOS.init({
+  once: true,
+  duration: 1000
+});
